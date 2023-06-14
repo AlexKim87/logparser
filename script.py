@@ -21,11 +21,6 @@ def mainscript(fileordir):
         print('Incorrect path')
 
 
-# 2 Должен быть README.md файл, который описывает как работает скрипт
-# 3 Приложен скриншот с примером работы скрипта
-
-
-
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description='Process access.log')
